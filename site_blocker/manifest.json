@@ -1,0 +1,12 @@
+{
+  "name": "Site Blocker",
+    "version": "1.0.0",
+    "description": "A simple site blocker",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
